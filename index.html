@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-color:dodgerblue;" onload="loadLists()">
+        <h1 style="color:black; font-family: Courier New; text-align: center; font-size:350%;">todo list</h1>
+        <div class="all-tasks" id="main-div">
+            <h2>My lists</h2>
+            <ul id="todo-list" style ="list-style-type: none;"> 
+            </ul>
+            <input type="text" id = "input-list" class="input">
+            <button class="btn" onclick="addNewList()">+</button>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
